@@ -16,7 +16,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
-  body, input, button {
+  body, input, button, a {
     font: 14px Roboto, sans-serif;
   }
 
@@ -28,5 +28,5 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
-  }
+  }  
 `;

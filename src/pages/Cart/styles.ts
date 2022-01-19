@@ -6,6 +6,22 @@ export const Container = styled.div`
   background: #fff;
   border-radius: 4px;
 
+  .no-product-in-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .no-product-in-cart a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #7159c1;
+
+    &:hover {
+      color: #6550ad;
+    }
+  }
+
   footer {
     margin-top: 30px;
     display: flex;

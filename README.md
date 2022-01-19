@@ -5,6 +5,11 @@ Instruction: [Criando um hook de carrinho de compras](https://www.notion.so/Desa
 ## Base URL
 http://localhost:3000/
 
+## URL to Fake API with JSON Server
+http://localhost:3333/stock
+
+http://localhost:3333/products
+
 ## Project commands
 ### Prepare project
 
@@ -20,7 +25,7 @@ http://localhost:3000/
   yarn server
 
   # Run project
-  yarn dev
+  yarn start
 ```
 
 ### Run tests
